@@ -23,7 +23,7 @@ public class ValidationUtil extends Object {
 		String alphabet = "0123456789abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ";
 		String specialChar = "`~!@#$%^&*()_-+= {[}]|\\:;\"'<,>.?/";
 
-		System.out.println("alphabet=" + alphabet);
+		System.out.println("alphabet=" + alphabet); //I am first
 		System.out.println("escNull=" + escNull(alphabet));
 
 		System.out.println("specialChar=" + specialChar);
@@ -40,7 +40,7 @@ public class ValidationUtil extends Object {
 
 		System.out.println("blank" + sanitizeIntString(null) == null);
 
-		String a = "";
+		String a = ""; 
 		String d = "1";
 		String b = null;
 		String c = "1234567890123456789012345678901234567890";
