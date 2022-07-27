@@ -11,7 +11,6 @@ public class SecurityUtil {
 	}
 	
 	public static String sanitize(String content, HtmlPolicyBuilder policyBuilder) {
-		//test add a line  FirstBranch
 		StringBuilder sb = new StringBuilder();
 		HtmlStreamRenderer renderer = HtmlStreamRenderer.create(sb, new Handler<String>() {
 			public void handle(String errorMessage) {
